@@ -1,13 +1,37 @@
 {
-  "best_threshold": 0.3500000000000001,
-  "class_labels": [
-    "High",
-    "Low",
-    "Medium"
+  "feature_names": [
+    "City",
+    "Temperature(F)",
+    "Wind_Chill(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Direction",
+    "Wind_Speed(mph)",
+    "Precipitation(in)",
+    "Sunrise_Sunset"
   ],
   "categorical_cols": [
     "City",
     "Wind_Direction",
     "Sunrise_Sunset"
+  ],
+  "feature_order": [
+    "City",
+    "Temperature(F)",
+    "Wind_Chill(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Direction",
+    "Wind_Speed(mph)",
+    "Precipitation(in)",
+    "Sunrise_Sunset"
+  ],
+  "model_type": "RandomForestClassifier",
+  "classes": [
+    "High",
+    "Low",
+    "Medium"
   ]
 }
