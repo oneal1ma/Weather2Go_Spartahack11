@@ -14,6 +14,8 @@ def init_model():
         model = joblib.load('rf_model.joblib')
         label_encoder = joblib.load('label_encoder.joblib')
         st.success("Loaded existing model")
+    finally:
+        print("Data Model Cannot Load Sucessfully.")
 
         # Create and fit label encoder for weather conditions
         label_encoder = LabelEncoder()
