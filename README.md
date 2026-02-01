@@ -2,7 +2,7 @@
 
 Weather2Go is an accident risk prediction system that helps drivers make informed decisions about road safety in Michigan. Using machine learning and real-time weather data from the NOAA Weather API, the Streamlit web app predicts accident risk levels (Low, Medium, High) to promote safer driving conditions.
 
-**Local App Link:** http://localhost:8505/
+**Local App Link:** https://weather2gospartahack11-3yr2k7abyeexiidlxvoappo.streamlit.app/
 
 > Note: This link works only while the Streamlit app is running on your machine.
 
